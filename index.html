@@ -7,12 +7,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
+  
+    <div class="container-search">
+        <form name="form-search">
+            <img src="./asset/icon/Google.webp" alt="" onclick="inputSearch.focus()">
+            <input type="text" id="search" placeholder="Search Anything" style="cursor: pointer;">
+            <img src="./asset/icon/search.png" alt="" id="search-submit" onclick="submitFormSearch()">
+            <script>
+
+            </script>
+        </form>
+    </div>
+
+    <div class="container-profil">
+        <div class="div-profil">
+            <img src="./asset/image/profil.png" alt="">
+            <h1 id="username">ariafatah0711</h1>
+            <div class="data-profil">
+                <h3 id="folowers"></h3>
+                <h3 id="folowing"></h3>
+            </div>
+            <h3 id="repository"></h3>
+        </div>
+        <script>
+
+        </script>
+    </div>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>

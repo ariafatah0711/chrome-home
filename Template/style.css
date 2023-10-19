@@ -14,7 +14,7 @@
 
 body {
   /* background-color: rgb(var(--body-color)); */
-  background-image: url(bg1.png);
+  background: grey;
   margin: 0px;
 }
 
