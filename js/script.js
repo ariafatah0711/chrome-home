@@ -1,16 +1,20 @@
+// ####################################################################################################
+// container-search
+// ####################################################################################################
 let inputSearch = document.getElementById("search");
 const submitFormSearch = (document.forms["form-search"].onsubmit = () => {
   let query = inputSearch.value;
   let goggleSearchUrl =
     "https://www.google.com/search?q=" + encodeURIComponent(query);
   window.open(goggleSearchUrl);
-  //   window.open(goggleSearchUrl, "_self");
 });
 
 document.addEventListener("keydown", function (event) {
   inputSearch.focus();
 });
 
+// ####################################################################################################
+// container-profil
 // ####################################################################################################
 function showData() {
   data = JSON.parse(localStorage.getItem("user"));
@@ -58,4 +62,6 @@ getDataAsync()
     console.log(data);
   });
 
+// ####################################################################################################
+// container-
 // ####################################################################################################

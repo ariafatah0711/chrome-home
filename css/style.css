@@ -22,9 +22,13 @@ main {
     
     border: var(--brd);
 }
-
+img {height: 100%; max-height: 100px;}
+h1,h2,h3,h4,h5,h6,p {color: inherit;}
+/* ##################################################################### */
+/* container-search */
 /* ##################################################################### */
 .container-search {
+    z-index: 100;
     position: relative; top: 50px;
     height: 3rem; width: 25rem;
     
@@ -37,19 +41,17 @@ main {
     /* border: var(--brd); */
 }
 .container-search input {
-    background: transparent; display: flex; flex-grow: 1;
+    background: transparent; display: flex; flex-grow: 1; cursor: text !important;
 }
 .container-search img {cursor: pointer !important;}
 /* ##################################################################### */
-
-
-
+/* container-profil */
 /* ##################################################################### */
 .container-profil {
     position: absolute;
     height: 100vh; width: 100%; padding: 50px 50px;
     display: flex;
-    font-size: 70%; color: cadetblue;
+    font-size: 70%;
 
     border: var(--brd);
 }
@@ -59,7 +61,3 @@ main {
 .container-profil .data-profil {
     display: flex; flex-direction: row; align-items: center; gap: 0.5rem;
 }
-
-h1,h2,h3,h4,h5,h6,p {color: inherit;}
-
-img {height: 100%; max-height: 100px;}
