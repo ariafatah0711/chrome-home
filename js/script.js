@@ -8,7 +8,7 @@ const submitFormSearch = (document.forms["form-search"].onsubmit = (event) => {
   let goggleSearchUrl, path
   if (query.startsWith("f/")) {
     path = query.substring(2); // menghapus `f/` dari input
-    formattedQury = path.replace(/_./)g, (match) => {
+    formattedQury = path.replace(/_.*/)g, (match) => {
       return match.chartAt(1).toUpperCase();
     };
     formattedQury.chartAt(0).toUpperCase() + formattedQury.slice(1);
