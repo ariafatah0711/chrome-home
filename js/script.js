@@ -2,11 +2,25 @@
 // container-search
 // ####################################################################################################
 let inputSearch = document.getElementById("search");
-const submitFormSearch = (document.forms["form-search"].onsubmit = () => {
+const submitFormSearch = (document.forms["form-search"].onsubmit = (event) => {
+  event.preventDefault();
   let query = inputSearch.value;
-  let goggleSearchUrl =
-    "https://www.google.com/search?q=" + encodeURIComponent(query);
-  window.open(goggleSearchUrl);
+  let goggleSearchUrl, path
+  if (query.startsWith("f/")) {
+    path = query.substring(2); // menghapus `f/` dari input
+    formattedQury = path.replace(/_./)g, (match) => {
+      return match.chartAt(1).toUpperCase();
+    };
+    formattedQury.chartAt(0).toUpperCase() + formattedQury.slice(1);
+    goggleSearchUrl = "file:///home/aria/Dokumen/" + encodeURIComponent(path);
+  } else if (query === "d/") {
+    path = query.substring(2);
+    goggleSearchUrl = "https://" + path + ".com";
+  } else {
+    goggleSearchUrl =
+      "https://www.google.com/search?q=" + encodeURIComponent(query);
+  }
+  window.location.href = goggleSearchUrl;
 });
 
 document.addEventListener("keydown", function (event) {
