@@ -7,13 +7,9 @@ const submitFormSearch = (document.forms["form-search"].onsubmit = (event) => {
   let query = inputSearch.value;
   let goggleSearchUrl, path, formatQuery;
   if (query.startsWith("f/")) {
-    // path = query.substring(2); // menghapus `f/` dari input
-    // formatQuery = path.replace(/_.*/)g, (match) => {
-    //   return match.charAt(1).toUpperCase();
-    // };
-    // formatQuery.chartAt(0).toUpperCase() + formatQuery.slice(1);
-    // goggleSearchUrl = "file:///home/aria/Dokumen/" + encodeURIComponent(path);
-  } else if (query === "d/") {
+    path = query.substring(2); // menghapus `f/` dari input
+    goggleSearchUrl = "file:///home/aria/Dokumen/" + encodeURIComponent(path);
+  } else if (query.startsWith("d/")) {
     path = query.substring(2);
     goggleSearchUrl = "https://" + path + ".com";
   } else {
