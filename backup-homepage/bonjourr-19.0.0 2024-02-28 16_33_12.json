@@ -1,0 +1,244 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "19.0.0"
+  },
+  "showall": true,
+  "lang": "id",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "home",
+  "greeting": "aria",
+  "pagegap": 6,
+  "pagewidth": 1000,
+  "time": true,
+  "main": false,
+  "dateformat": "eu",
+  "background_blur": 5,
+  "background_bright": 0.78,
+  "background_type": "local",
+  "quicklinks": true,
+  "textShadow": 0.275,
+  "announcements": "major",
+  "review": -1,
+  "cssHeight": 100,
+  "css": "",
+  "hide": {
+    "date": false,
+    "greetings": false,
+    "settingsicon": true,
+    "weatherdesc": true,
+    "weathericon": false,
+    "clock": false
+  },
+  "linkstyle": "inline",
+  "linknewtab": false,
+  "linksrow": "8",
+  "linksqjrmld": {
+    "_id": "linksqjrmld",
+    "order": 0,
+    "parent": 1,
+    "title": "color hunt",
+    "url": "https://colorhunt.co/"
+  },
+  "linksnqgfep": {
+    "_id": "linksnqgfep",
+    "order": 0,
+    "parent": 3,
+    "title": "youtube",
+    "url": "https://www.youtube.com/"
+  },
+  "linksmlrlkd": {
+    "_id": "linksmlrlkd",
+    "order": 1,
+    "parent": 2,
+    "title": "ctf 101",
+    "url": "https://ctf.hacker101.com/",
+    "icon": "https://th.bing.com/th?id=ODLS.19e1bb71-7f60-4a84-8a28-e09294a3856d&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+  },
+  "linkskliphn": {
+    "_id": "linkskliphn",
+    "order": 1,
+    "parent": 0,
+    "title": "dicoding",
+    "url": "https://www.dicoding.com/"
+  },
+  "linkskgfjkr": {
+    "_id": "linkskgfjkr",
+    "order": 3,
+    "parent": 1,
+    "title": "bootstrap",
+    "url": "https://getbootstrap.com/docs/"
+  },
+  "linkshprjdo": {
+    "_id": "linkshprjdo",
+    "order": 1,
+    "parent": 1,
+    "title": "undraw",
+    "url": "https://undraw.co/illustrations"
+  },
+  "linksefamgc": {
+    "_id": "linksefamgc",
+    "order": 2,
+    "parent": 1,
+    "title": "get waves",
+    "url": "https://getwaves.io/"
+  },
+  "linkscmdrhl": {
+    "_id": "linkscmdrhl",
+    "order": 2,
+    "parent": 2,
+    "title": "try hack me",
+    "url": "https://tryhackme.com/"
+  },
+  "linkscbapaf": {
+    "_id": "linkscbapaf",
+    "order": 0,
+    "parent": 0,
+    "title": "github",
+    "url": "https://github.com/ariafatah0711",
+    "icon": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+  },
+  "linksbkahnc": {
+    "_id": "linksbkahnc",
+    "order": 2,
+    "parent": 0,
+    "title": "cisco academy",
+    "url": "https://skillsforall.com/dashboard",
+    "icon": "https://th.bing.com/th?id=OIP.wPCFCXiTCoX4Qg8ciYeKQgAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+  },
+  "linksbeopfk": {
+    "_id": "linksbeopfk",
+    "order": 0,
+    "parent": 2,
+    "title": "pico ctf",
+    "url": "https://www.picoctf.org/"
+  },
+  "linktabs": {
+    "active": true,
+    "selected": 0,
+    "titles": [
+      "home",
+      "tools",
+      "learn",
+      "more"
+    ]
+  },
+  "clock": {
+    "ampm": false,
+    "analog": false,
+    "face": "none",
+    "seconds": true,
+    "size": 0.75,
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "hour",
+    "lastCollec": "day",
+    "time": 1708734195431
+  },
+  "weather": {
+    "ccode": "ID",
+    "city": "Jakarta",
+    "forecast": "auto",
+    "geolocation": "approximate",
+    "moreinfo": "windy",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "text": "## Edit catatan ini !\n\n[x] dicoding submmision 1\n\n[ ] dicoding submmision 2\n\n",
+    "align": "left",
+    "on": false,
+    "opacity": 0.1,
+    "width": 39
+  },
+  "searchbar": {
+    "on": false,
+    "opacity": 0.1,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1709108918975,
+    "type": "classic"
+  },
+  "font": {
+    "size": "15.5",
+    "family": "",
+    "system": true,
+    "weight": "400",
+    "weightlist": []
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "time"
+          ],
+          [
+            "notes",
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {
+          "time": {
+            "box": "",
+            "text": ""
+          },
+          "quicklinks": {
+            "box": "",
+            "text": ""
+          },
+          "notes": {
+            "box": "",
+            "text": ""
+          }
+        }
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}
