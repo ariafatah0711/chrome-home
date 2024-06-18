@@ -1,0 +1,373 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "19.2.4"
+  },
+  "showall": true,
+  "lang": "id",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "home",
+  "greeting": "aria",
+  "pagegap": 6,
+  "pagewidth": 1000,
+  "time": true,
+  "main": false,
+  "dateformat": "eu",
+  "background_blur": 5,
+  "background_bright": 0.78,
+  "background_type": "local",
+  "quicklinks": true,
+  "textShadow": 0.275,
+  "announcements": "major",
+  "review": -1,
+  "css": "",
+  "hide": {
+    "date": false,
+    "greetings": false,
+    "settingsicon": true,
+    "weatherdesc": true,
+    "weathericon": false,
+    "clock": false
+  },
+  "linkstyle": "small",
+  "linknewtab": false,
+  "linksrow": "7",
+  "linksqmpbir": {
+    "_id": "linksqmpbir",
+    "order": 7,
+    "parent": 0,
+    "title": "pico ctf",
+    "url": "https://play.picoctf.org/"
+  },
+  "linksqjrmld": {
+    "_id": "linksqjrmld",
+    "order": 1,
+    "parent": 1,
+    "title": "color hunt",
+    "url": "https://colorhunt.co/"
+  },
+  "linkspehnfl": {
+    "_id": "linkspehnfl",
+    "icon": "https://th.bing.com/th?id=OIP.TvfonR59zcK7adlEGFrxCwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+    "order": 3,
+    "parent": 0,
+    "title": "redhat academy",
+    "url": "https://rha.ole.redhat.com/"
+  },
+  "linksnqgfep": {
+    "_id": "linksnqgfep",
+    "order": 3,
+    "parent": 4,
+    "title": "youtube",
+    "url": "https://www.youtube.com/"
+  },
+  "linksnlapcc": {
+    "_id": "linksnlapcc",
+    "order": 0,
+    "parent": 2,
+    "title": "cyberchef",
+    "url": "https://cyberchef.org/"
+  },
+  "linksmhqcjg": {
+    "_id": "linksmhqcjg",
+    "order": 2,
+    "parent": 2,
+    "title": "virus total",
+    "url": "https://www.virustotal.com/gui/"
+  },
+  "linksmfhrjh": {
+    "_id": "linksmfhrjh",
+    "order": 5,
+    "parent": 0,
+    "title": "hack the box",
+    "url": "https://www.hackthebox.com/"
+  },
+  "linkslmrgmf": {
+    "_id": "linkslmrgmf",
+    "order": 2,
+    "parent": 4,
+    "title": "instagram",
+    "url": "https://www.instagram.com/"
+  },
+  "linkslejfkg": {
+    "_id": "linkslejfkg",
+    "order": 1,
+    "parent": 4,
+    "title": "facebook",
+    "url": "https://web.facebook.com/"
+  },
+  "linkslbdokm": {
+    "_id": "linkslbdokm",
+    "order": 0,
+    "parent": 3,
+    "title": "pdf",
+    "url": "https://www.ilovepdf.com/"
+  },
+  "linkskplmlb": {
+    "_id": "linkskplmlb",
+    "icon": "https://www.gstatic.com/images/branding/product/2x/forms_2020q4_48dp.png",
+    "order": 5,
+    "parent": 3,
+    "title": "forms",
+    "url": "https://docs.google.com/forms/u/0/"
+  },
+  "linkskliphn": {
+    "_id": "linkskliphn",
+    "order": 1,
+    "parent": 0,
+    "title": "dicoding",
+    "url": "https://www.dicoding.com/"
+  },
+  "linkskkkflq": {
+    "_id": "linkskkkflq",
+    "icon": "https://www.gstatic.com/images/branding/product/2x/slides_2020q4_48dp.png",
+    "order": 4,
+    "parent": 3,
+    "title": "slide",
+    "url": "https://docs.google.com/presentation/u/0/"
+  },
+  "linkskgfjkr": {
+    "_id": "linkskgfjkr",
+    "order": 4,
+    "parent": 1,
+    "title": "bootstrap",
+    "url": "https://getbootstrap.com/docs/"
+  },
+  "linksjplbnc": {
+    "_id": "linksjplbnc",
+    "order": 2,
+    "parent": 3,
+    "title": "docs",
+    "url": "https://docs.google.com/document/u/0/"
+  },
+  "linksjjadlg": {
+    "_id": "linksjjadlg",
+    "order": 5,
+    "parent": 4,
+    "title": "otakudesu",
+    "url": "https://otakudesu.cloud/"
+  },
+  "linksjimohn": {
+    "_id": "linksjimohn",
+    "order": 3,
+    "parent": 2,
+    "title": "crack station",
+    "url": "https://crackstation.net/"
+  },
+  "linksjemgkr": {
+    "_id": "linksjemgkr",
+    "order": 4,
+    "parent": 4,
+    "title": "anime",
+    "url": "https://animixplay.st/"
+  },
+  "linksjbcbaj": {
+    "_id": "linksjbcbaj",
+    "order": 0,
+    "parent": 4,
+    "title": "linkedin",
+    "url": "https://www.linkedin.com/"
+  },
+  "linksinngdr": {
+    "_id": "linksinngdr",
+    "order": 1,
+    "parent": 3,
+    "title": "canva",
+    "url": "https://www.canva.com/"
+  },
+  "linkshprjdo": {
+    "_id": "linkshprjdo",
+    "order": 2,
+    "parent": 1,
+    "title": "undraw",
+    "url": "https://undraw.co/illustrations"
+  },
+  "linkshfokhk": {
+    "_id": "linkshfokhk",
+    "order": 0,
+    "parent": 1,
+    "title": "symbol",
+    "url": "https://id.piliapp.com/symbol"
+  },
+  "linksfhbcdm": {
+    "_id": "linksfhbcdm",
+    "order": 4,
+    "parent": 0,
+    "title": "tryhackme",
+    "url": "https://tryhackme.com/dashboard"
+  },
+  "linksegkrjh": {
+    "_id": "linksegkrjh",
+    "order": 1,
+    "parent": 2,
+    "title": "revshell",
+    "url": "https://www.revshells.com/"
+  },
+  "linksefamgc": {
+    "_id": "linksefamgc",
+    "order": 3,
+    "parent": 1,
+    "title": "get waves",
+    "url": "https://getwaves.io/"
+  },
+  "linkscbapaf": {
+    "_id": "linkscbapaf",
+    "icon": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+    "order": 0,
+    "parent": 0,
+    "title": "github",
+    "url": "https://github.com/ariafatah0711"
+  },
+  "linksbqgbjn": {
+    "_id": "linksbqgbjn",
+    "order": 6,
+    "parent": 0,
+    "title": "hacktrace",
+    "url": "https://www.hacktrace-ranges.id/ranges"
+  },
+  "linksbkahnc": {
+    "_id": "linksbkahnc",
+    "icon": "https://th.bing.com/th?id=OIP.wPCFCXiTCoX4Qg8ciYeKQgAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+    "order": 2,
+    "parent": 0,
+    "title": "cisco academy",
+    "url": "https://skillsforall.com/dashboard"
+  },
+  "linksaqbhol": {
+    "_id": "linksaqbhol",
+    "icon": "https://www.gstatic.com/images/branding/product/2x/sheets_2020q4_48dp.png",
+    "order": 3,
+    "parent": 3,
+    "title": "spredsheet",
+    "url": "https://docs.google.com/spreadsheets/u/0/"
+  },
+  "linktabs": {
+    "active": true,
+    "selected": 0,
+    "titles": [
+      "home",
+      "web-dev",
+      "tools",
+      "design",
+      "more"
+    ]
+  },
+  "clock": {
+    "ampm": false,
+    "analog": false,
+    "face": "none",
+    "seconds": true,
+    "size": 0.75,
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "hour",
+    "lastCollec": "day",
+    "time": 1708734195431
+  },
+  "weather": {
+    "ccode": "ID",
+    "city": "Jakarta",
+    "forecast": "auto",
+    "geolocation": "approximate",
+    "moreinfo": "windy",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "text": "## Edit catatan ini !\n\n[x] dicoding submmision 1\n\n[ ] dicoding submmision 2\n\n",
+    "align": "left",
+    "on": false,
+    "opacity": 0.1,
+    "width": 39
+  },
+  "searchbar": {
+    "on": false,
+    "opacity": 0.1,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1718702412026,
+    "type": "classic"
+  },
+  "font": {
+    "size": "15.5",
+    "family": "",
+    "system": true,
+    "weight": "400",
+    "weightlist": []
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "time"
+          ],
+          [
+            "notes",
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {
+          "time": {
+            "box": "",
+            "text": ""
+          },
+          "quicklinks": {
+            "box": "",
+            "text": ""
+          },
+          "notes": {
+            "box": "",
+            "text": ""
+          }
+        }
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}
